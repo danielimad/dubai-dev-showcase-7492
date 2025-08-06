@@ -3,16 +3,252 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ahmed Al-Rashid - Web Developer in Dubai | Full-Stack Development Services</title>
-  <meta name="description" content="Professional web developer in Dubai, UAE offering full-stack development services. Specializing in React, Next.js, and modern web technologies for local businesses.">
-  <meta name="keywords" content="web developer Dubai, full-stack developer UAE, React developer Dubai, website development Dubai">
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <meta name="description" content="Professional Web Developer in Dubai, UAE - Full-stack development services for local businesses">
+  <meta name="keywords" content="web developer Dubai, UAE web developer, Dubai tech, full-stack developer">
+  <title>Ahmed Hassan - Web Developer | Dubai, UAE</title>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
 </head>
 <body>
-  <div id="root"></div>
+  <div id="app">
+    <!-- Hero Section -->
+    <header class="hero">
+      <nav class="nav">
+        <div class="nav-container">
+          <div class="logo">AH</div>
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="theme-toggle">
+            <button id="theme-btn">🌙</button>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Web Developer in <span class="highlight">Dubai</span></h1>
+          <p>Full-stack developer crafting modern web solutions for UAE businesses. Specialized in React, Node.js, and cloud technologies.</p>
+          <div class="hero-buttons">
+            <button class="btn-primary">View Projects</button>
+            <button class="btn-secondary">Get In Touch</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="code-window">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+            </div>
+            <div class="code-content">
+              <pre><code class="code-animation">const developer = {
+  name: "Ahmed Hassan",
+  location: "Dubai, UAE",
+  skills: ["React", "Node.js", "MongoDB"],
+  passion: "Building amazing web apps"
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Based in the vibrant tech hub of Dubai, I'm a passionate full-stack developer with 5+ years of experience building modern web applications. I specialize in creating scalable solutions for businesses across the UAE.</p>
+            <p>I've worked with startups and established companies in Dubai's thriving tech ecosystem, delivering projects that drive business growth and user engagement.</p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">30+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="dubai-skyline"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">⚛️</div>
+            <h3>Frontend</h3>
+            <p>React, Vue.js, TypeScript, Tailwind CSS</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">⚙️</div>
+            <h3>Backend</h3>
+            <p>Node.js, Python, MongoDB, PostgreSQL</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">☁️</div>
+            <h3>Cloud & DevOps</h3>
+            <p>AWS, Vercel, Docker, CI/CD</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">📱</div>
+            <h3>Mobile</h3>
+            <p>React Native, Progressive Web Apps</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">E-Commerce Platform</div>
+            </div>
+            <div class="project-content">
+              <h3>Dubai E-Commerce Platform</h3>
+              <p>Full-stack e-commerce solution built for UAE market with Arabic/English support and local payment integration.</p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <button class="btn-primary">Live Demo</button>
+                <button class="btn-secondary">View Code</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">Real Estate App</div>
+            </div>
+            <div class="project-content">
+              <h3>Dubai Property Finder</h3>
+              <p>Real estate platform with advanced search, virtual tours, and integration with Dubai Land Department APIs.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">PostgreSQL</span>
+              </div>
+              <div class="project-links">
+                <button class="btn-primary">Live Demo</button>
+                <button class="btn-secondary">View Code</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">Restaurant App</div>
+            </div>
+            <div class="project-content">
+              <h3>UAE Restaurant Management</h3>
+              <p>Complete restaurant management system with online ordering, inventory tracking, and multi-location support.</p>
+              <div class="project-tech">
+                <span class="tech-tag">Vue.js</span>
+                <span class="tech-tag">Express</span>
+                <span class="tech-tag">Redis</span>
+              </div>
+              <div class="project-links">
+                <button class="btn-primary">Live Demo</button>
+                <button class="btn-secondary">View Code</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>Based in Dubai, UAE. Available for freelance projects and full-time opportunities.</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span>ahmed@example.com</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📱</span>
+                <span>+971 50 123 4567</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <span>Dubai, United Arab Emirates</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">🕐</span>
+                <span>UAE Time (GMT+4)</span>
+              </div>
+            </div>
+          </div>
+          
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2024 Ahmed Hassan. Dubai-based Web Developer.</p>
+          <div class="social-links">
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">GitHub</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
   <script type="module" src="/src/main.js"></script>
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </body>
 </html>
