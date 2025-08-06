@@ -3,52 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio of a web developer in Dubai specializing in Next.js, TypeScript, and Tailwind CSS.">
-    <title>Dubai Web Developer Portfolio</title>
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="icon" href="/favicon.ico">
+    <title>Web Developer Portfolio in Dubai</title>
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
-    <header id="home">
-        <h1>Dubai Web Developer Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Web Developer based in Dubai</p>
     </header>
-
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>Experienced web developer based in Dubai, focusing on creating dynamic and beautiful web pages...</p>
+            <p>Professional web developer with experience in the Dubai tech market, focused on creating impactful digital solutions.</p>
         </section>
         <section id="skills">
-            <h2>Skills</h2>
-            <p>JavaScript, TypeScript, Next.js, Tailwind CSS...</p>
+            <h2>Skills & Technologies</h2>
+            <p>HTML, CSS, JavaScript, and more.</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <p>Some of my projects include interactive web applications...</p>
+            <p>A showcase of my latest work.</p>
         </section>
         <section id="contact">
             <h2>Contact</h2>
             <form id="contact-form">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message"></textarea>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br>
                 <button type="submit">Send</button>
             </form>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2023 Dubai Web Developer Portfolio</p>
+        <p>© 2023 by Web Developer in Dubai. All rights reserved.</p>
     </footer>
-
-    <script src="src/main.js" type="module"></script>
+    <script type="module" src="./src/main.js"></script>
 </body>
 </html>
